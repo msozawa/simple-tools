@@ -1,0 +1,72 @@
+#include "st_def.h"
+
+void initColorPair( void )
+{
+    init_pair( COL_BLK_RED, COLOR_BLACK, COLOR_RED );
+    init_pair( COL_BLK_GRN, COLOR_BLACK, COLOR_GREEN ); 
+    init_pair( COL_BLK_YLW, COLOR_BLACK, COLOR_YELLOW );
+    init_pair( COL_BLK_BLU, COLOR_BLACK, COLOR_BLUE );
+    init_pair( COL_BLK_MGD, COLOR_BLACK, COLOR_MAGENTA );
+    init_pair( COL_BLK_CYN, COLOR_BLACK, COLOR_CYAN );
+    init_pair( COL_BLK_WHT, COLOR_BLACK, COLOR_WHITE );
+
+    init_pair( COL_RED_BLK, COLOR_RED, COLOR_BLACK );
+    init_pair( COL_RED_GRN, COLOR_RED, COLOR_GREEN );
+    init_pair( COL_RED_YLW, COLOR_RED, COLOR_YELLOW );
+    init_pair( COL_RED_BLU, COLOR_RED, COLOR_BLUE );
+    init_pair( COL_RED_MGD, COLOR_RED, COLOR_MAGENTA );
+    init_pair( COL_RED_CYN, COLOR_RED, COLOR_CYAN );
+    init_pair( COL_RED_WHT, COLOR_RED, COLOR_WHITE );
+
+    init_pair( COL_GRN_BLK, COLOR_GREEN, COLOR_BLACK );
+    init_pair( COL_GRN_RED, COLOR_GREEN, COLOR_RED );
+    init_pair( COL_GRN_YLW, COLOR_GREEN, COLOR_YELLOW );
+    init_pair( COL_GRN_BLU, COLOR_GREEN, COLOR_BLUE );
+    init_pair( COL_GRN_MGD, COLOR_GREEN, COLOR_MAGENTA );
+    init_pair( COL_GRN_CYN, COLOR_GREEN, COLOR_CYAN );
+    init_pair( COL_GRN_WHT, COLOR_GREEN, COLOR_WHITE );
+
+    init_pair( COL_YLW_BLK, COLOR_YELLOW, COLOR_BLACK );
+    init_pair( COL_YLW_RED, COLOR_YELLOW, COLOR_RED );
+    init_pair( COL_YLW_GRN, COLOR_YELLOW, COLOR_GREEN );
+    init_pair( COL_YLW_BLU, COLOR_YELLOW, COLOR_BLUE );
+    init_pair( COL_YLW_MGD, COLOR_YELLOW, COLOR_MAGENTA );
+    init_pair( COL_YLW_CYN, COLOR_YELLOW, COLOR_CYAN );
+    init_pair( COL_YLW_WHT, COLOR_YELLOW, COLOR_WHITE );
+
+    init_pair( COL_BLU_BLK, COLOR_BLUE, COLOR_BLACK );
+    init_pair( COL_BLU_RED, COLOR_BLUE, COLOR_RED );
+    init_pair( COL_BLU_GRN, COLOR_BLUE, COLOR_GREEN );
+    init_pair( COL_BLU_YLW, COLOR_BLUE, COLOR_YELLOW );
+    init_pair( COL_BLU_MGD, COLOR_BLUE, COLOR_MAGENTA );
+    init_pair( COL_BLU_CYN, COLOR_BLUE, COLOR_CYAN );
+    init_pair( COL_BLU_WHT, COLOR_BLUE, COLOR_WHITE );
+
+    init_pair( COL_MGD_BLK, COLOR_MAGENTA, COLOR_BLACK );
+    init_pair( COL_MGD_RED, COLOR_MAGENTA, COLOR_RED );
+    init_pair( COL_MGD_GRN, COLOR_MAGENTA, COLOR_GREEN );
+    init_pair( COL_MGD_YLW, COLOR_MAGENTA, COLOR_YELLOW );
+    init_pair( COL_MGD_BLU, COLOR_MAGENTA, COLOR_BLUE );
+    init_pair( COL_MGD_CYN, COLOR_MAGENTA, COLOR_CYAN );
+    init_pair( COL_MGD_WHT, COLOR_MAGENTA, COLOR_WHITE );
+
+    init_pair( COL_CYN_BLK, COLOR_CYAN, COLOR_BLACK );
+    init_pair( COL_CYN_RED, COLOR_CYAN, COLOR_RED );
+    init_pair( COL_CYN_GRN, COLOR_CYAN, COLOR_GREEN );
+    init_pair( COL_CYN_YLW, COLOR_CYAN, COLOR_YELLOW );
+    init_pair( COL_CYN_BLU, COLOR_CYAN, COLOR_BLUE );
+    init_pair( COL_CYN_MGD, COLOR_CYAN, COLOR_MAGENTA );
+    init_pair( COL_CYN_WHT, COLOR_CYAN, COLOR_WHITE );
+
+    init_pair( COL_WHT_BLK, COLOR_WHITE, COLOR_BLACK );
+    init_pair( COL_WHT_RED, COLOR_WHITE, COLOR_RED );
+    init_pair( COL_WHT_GRN, COLOR_WHITE, COLOR_GREEN );
+    init_pair( COL_WHT_YLW, COLOR_WHITE, COLOR_YELLOW );
+    init_pair( COL_WHT_BLU, COLOR_WHITE, COLOR_BLUE );
+    init_pair( COL_WHT_MGD, COLOR_WHITE, COLOR_MAGENTA );
+    init_pair( COL_WHT_CYN, COLOR_WHITE, COLOR_CYAN );
+
+    return;
+}
+
+
