@@ -37,6 +37,7 @@ then, this app starts to monitor trrafic and you can see like following screen.
 ## (2)tcps
 
   This program behaves as TCP Server and dumps received data as HEX and ASCII.
+  (Invisible character (space, tab, newline(0x13, 0x10)) are displayed as '.')
 
   ```
 $ ./tcps 22222
